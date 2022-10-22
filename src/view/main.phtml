@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?= $title ?></title>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/css.css" rel="stylesheet" type="text/css" /> 
+        <script type="text/javascript" src="/js/jquery.js"></script>   
+        <script type="text/javascript" src="/js/js.js"></script>
+    </head>
+    <body>
+        <form id="form">
+            <p><input type="url"  placeholder='url' required id="url" value="https://a3f.ru" ></p>
+            <p>
+                <select id="jsonFlag">
+                    <option value="0">HTML</option>
+                    <option value="1">JSON</option>
+                </select>
+            </p>
+            <p><input type="submit" ></p>
+        </form>
+        <pre id="result"></pre>
+    </body>
+</html>
